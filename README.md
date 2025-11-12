@@ -1,6 +1,9 @@
 # GDShader Reader
+A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with advanced GLSL syntax highlighting and integrated visual references.
 
-> A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with advanced GLSL syntax highlighting and integrated visual references.
+[![Obsidian Plugin](https://img.shields.io/badge/Obsidian-Plugin-7c3aed)](https://obsidian.md)
+[![Godot Engine](https://img.shields.io/badge/Godot-Shader-478cbf)](https://godotengine.org)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue)](https://github.com/yourusername/gdshader-reader/releases)
 
 <p align="center">
   <img src="assets/screenshot-main.png.png" alt="GDShader Reader - Syntax Highlighting" width="800">
@@ -65,4 +68,5 @@ Access via `Settings → GDShader Reader`:
 ## License
 
 MIT
+
 
