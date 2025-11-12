@@ -1,0 +1,163 @@
+/* ===============================
+   GDSHADER READER — Layout general
+   =============================== */
+
+.gdshader-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--background-primary);
+}
+
+/* ===============================
+   TOOLBAR (alineada a la derecha)
+   =============================== */
+
+.gdshader-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+
+.gdshader-btn {
+  padding: 5px 12px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--interactive-normal);
+  color: var(--text-normal);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+.gdshader-btn:hover {
+  background: var(--interactive-hover);
+  transform: translateY(-1px);
+}
+
+/* ===============================
+   EDITOR DE SHADER (solo lectura)
+   =============================== */
+
+.gdshader-pre {
+  flex: 1;
+  overflow: auto;
+  padding: 12px;
+  font-family: var(--font-monospace);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-normal);
+  user-select: text !important;
+}
+
+/* ===============================
+   COLORES DE SINTAXIS (Godot style)
+   =============================== */
+.gd-key     { color: #7aa2f7; font-weight: 600; }
+.gd-typ     { color: #e0af68; }
+.gd-builtin { color: #9ece6a; font-weight: 500; }
+.gd-fn      { color: #7dcfff; }
+.gd-num     { color: #ff9e64; }
+.gd-str     { color: #9ece6a; }
+.gd-cmt     { color: #565f89; font-style: italic; }
+
+/* ===============================
+   PANEL LATERAL DE REFERENCIA
+   =============================== */
+
+.gdshader-ref-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 14px 20px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: var(--background-primary);
+}
+
+/* --- Título del shader --- */
+.gdshader-ref-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7aa2f7;                  /* tono azul Godot */
+  margin-bottom: 12px;
+  align-self: flex-start;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  letter-spacing: 0.4px;
+}
+
+/* --- Imagen de referencia --- */
+.gdshader-ref-img {
+  width: 95%;
+  max-width: 320px;
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  opacity: 0.95;
+  transition: opacity 0.4s ease;
+}
+
+/* --- Texto de ayuda debajo --- */
+.gdshader-ref-caption {
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ===============================
+   BOTONERA (Update / Delete)
+   =============================== */
+
+.gdshader-ref-btnwrap {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.gdshader-del-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--interactive-normal);
+  color: var(--text-normal);
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+.gdshader-del-btn:hover {
+  background: var(--interactive-hover);
+  transform: translateY(-1px);
+}
+
+/* ===============================
+   ESTADOS DE DRAG & DROP
+   =============================== */
+
+.gdshader-ref-panel.dragging {
+  outline: 2px dashed var(--interactive-accent);
+  outline-offset: 4px;
+  background: var(--background-modifier-hover);
+}
+
+.gdshader-ref-panel.dragging .gdshader-ref-caption {
+  color: var(--text-accent);
+  font-weight: 600;
+}
