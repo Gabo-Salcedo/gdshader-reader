@@ -8,7 +8,7 @@ A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with sy
 <p align="center">
   <img src="git-assets/screenshot-main.png" alt="GDShader Reader - Syntax Highlighting" width="100%">
   <br>
-  <em>GLSL syntax highlighting with customizable themes</em>
+  <em>GLSL syntax with customizable themes</em>
 </p>
 
 
@@ -27,6 +27,13 @@ A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with sy
 ### 🖼️ Visual Reference Panel
 - Attach **images or videos** as references for your shaders
 - Supported formats: `png`, `jpg`, `gif`, `mp4`, `webm`, `mov`, etc.
+
+<p align="center">
+  <img src="git-assets/drag-and-drop.gif" alt="Drag and Drop Demo" width="100%">
+  <br>
+  <em>Drag and drop images or videos as visual references</em>
+</p>
+
 - **Video controls**: play/pause, loop, audio toggle, speed control (0.25x-2x)
 - Auto-opens when viewing shaders, auto-closes with other files
 - Drag & drop support
