@@ -24,19 +24,26 @@ A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with sy
 - 12 customizable color properties
 - Quick theme selector in toolbar
 
+<p align="center">
+  <img src="git-assets/theme.gif" alt="Theme Selector Demo" width="80%">
+  <br>
+  <em>Easily switch between color themes</em>
+</p>
+
 ### 🖼️ Visual Reference Panel
 - Attach **images or videos** as references for your shaders
 - Supported formats: `png`, `jpg`, `gif`, `mp4`, `webm`, `mov`, etc.
 
-<p align="center">
-  <img src="git-assets/drag_and_drop.gif" alt="Drag and Drop Demo" width="100%">
-  <br>
-  <em>Drag and drop images or videos as visual references</em>
-</p>
 
 - **Video controls**: play/pause, loop, audio toggle, speed control (0.25x-2x)
 - Auto-opens when viewing shaders, auto-closes with other files
 - Drag & drop support
+
+<p align="center">
+  <img src="git-assets/drag_and_drop.gif" alt="Drag and Drop Demo" width="80%">
+  <br>
+  <em>Drag and drop images or videos as visual references</em>
+</p>
 
 ### ⚙️ Storage Options
 - **Global folder**: Store all references in one location
