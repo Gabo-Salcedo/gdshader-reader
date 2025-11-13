@@ -25,7 +25,7 @@ A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with sy
 - Quick theme selector in toolbar
 
 <p align="center">
-  <img src="git-assets/theme.gif" alt="Theme Selector Demo" width="80%">
+  <img src="git-assets/themes.gif" alt="Theme Selector Demo" width="80%">
   <br>
   <em>Easily switch between color themes</em>
 </p>
@@ -82,6 +82,7 @@ Access via `Settings → GDShader Reader`:
 ## License
 
 MIT
+
 
 
 
