@@ -29,7 +29,7 @@ A specialized Obsidian plugin for viewing Godot Engine `.gdshader` files with sy
 - Supported formats: `png`, `jpg`, `gif`, `mp4`, `webm`, `mov`, etc.
 
 <p align="center">
-  <img src="git-assets/drag-and-drop.gif" alt="Drag and Drop Demo" width="100%">
+  <img src="git-assets/drag_and_drop.gif" alt="Drag and Drop Demo" width="100%">
   <br>
   <em>Drag and drop images or videos as visual references</em>
 </p>
@@ -75,6 +75,7 @@ Access via `Settings → GDShader Reader`:
 ## License
 
 MIT
+
 
 
 
