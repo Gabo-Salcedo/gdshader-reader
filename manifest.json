@@ -1,9 +1,0 @@
-{
-  "id": "gdshader-reader",
-  "name": "gdshader-reader",
-  "description": "GDShader Reader is a plugin for Obsidian that provides a specialized viewer for Godot Engine .gdshader files, with advanced syntax highlighting and support for visual references.",
-  "version": "1.0.0",
-  "minAppVersion": "1.4.0",
-  "author": "www.GaboSalcedo.com",
-  "isDesktopOnly": false
-}
